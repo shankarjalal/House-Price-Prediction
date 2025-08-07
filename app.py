@@ -1,4 +1,4 @@
-## Create a building Web app or House Price Prediction
+## Building Web app of House Price Prediction
 
 # Import the Streamlit library for building web apps
 import streamlit as st
@@ -60,4 +60,5 @@ if predictbutton:
     st.write(f"Price Prediction is {prediction:,.2f}")
 else:
     # If the button is not pressed, prompt the user to use it
+
     st.write('Please use predict button after entering values.')
